@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather-app for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "weather-app"
+  ],
+  "author": "HuyDoan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
